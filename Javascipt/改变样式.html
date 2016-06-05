@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<style type="text/css">
+		body{
+			margin: 0;
+			padding: 0;
+			
+		}
+		#ooo{
+		border:solid 1px darkblue;
+		width: 200px;
+		height: 200px;
+		}
+		button{
+			width: 70px;
+			height: 20px;
+			margin: 5px;
+		}
+		.div1{
+			margin: 0 auto;
+			
+			
+
+			}
+		</style>
+		<script type="text/javascript">
+			function abaa(){
+				x=document.getElementById("ooo")
+				x.style.width="300px"
+			}	
+			function abbb(){
+				x=document.getElementById("ooo")
+				x.style.width="400px"
+			}	
+			function abcc(){
+				x=document.getElementById("ooo")
+				x.style.width="500px"
+			}
+			function abdd(){
+				x=document.getElementById("ooo")
+				x.style.height="300px"
+			}	
+			function abee(){
+				x=document.getElementById("ooo")
+				x.style.height="400px"
+			}
+			function abff(){
+				x=document.getElementById("ooo")
+				x.style.height="500px"
+			}
+			function abgg(){
+				x=document.getElementById("ooo")
+				x.style.background="darkgoldenrod"
+			}
+			function abhh(){
+				x=document.getElementById("ooo")
+				x.style.background="fuchsia"
+			}
+			function abii(){
+				x=document.getElementById("ooo")
+				x.style.background="forestgreen"
+			}
+			function huanyuan(){
+				x=document.getElementById("ooo")
+				x.style.width="200px";
+				x.style.height="200px";
+				x.style.background="#fff"
+			}
+		</script>
+		
+	</head>
+	<body>
+	  <div class="div1">
+		<div id="ooo">
+			我是一段帅气的文字
+		</div>
+		<button type="button" onclick="abaa()">300px宽</button>
+		<button type="button" onclick="abbb()">400px宽</button>
+		<button type="button" onclick="abcc()">500px宽</button><br />
+		<button type="button" onclick="abdd()">300px高</button>
+		<button type="button" onclick="abee()">400px高</button>
+		<button type="button" onclick="abff()">500px高</button><br />
+		<button type="button" onclick="abgg()">棕色背景</button>
+		<button type="button" onclick="abhh()">紫色背景</button>
+		<button type="button" onclick="abii()">绿色背景</button><br />
+		<button type="button" onclick="huanyuan()">还原按钮</button>
+	  </div>
+	</body>
+</html>
